@@ -38,6 +38,7 @@
     "keywords": [],
     "dependencies": {
         "@brendangooch/collision-detection": "^1.0.1",
-        "@brendangooch/dynamic-objects": "^3.0.0"
+        "@brendangooch/dynamic-objects": "^3.0.0",
+        "@brendangooch/maths": "^4.0.0"
     }
 }
