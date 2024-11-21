@@ -1,6 +1,6 @@
 {
     "name": "@brendangooch/screen-entity",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "",
     "author": "B Gooch <brendangooch@gmail.com>",
     "license": "MIT",
@@ -38,7 +38,7 @@
     "keywords": [],
     "dependencies": {
         "@brendangooch/collision-detection": "^1.0.1",
-        "@brendangooch/dynamic-objects": "^3.0.0",
+        "@brendangooch/dynamic-objects": "^5.0.0",
         "@brendangooch/maths": "^4.0.0"
     }
 }

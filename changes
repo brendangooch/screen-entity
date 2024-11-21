@@ -6,3 +6,11 @@ extends DynamicRectangle
     + zIndex
 
 tested manually
+
+v2.0.0
+    updated to dynamic-objects v5.0.0, which has substantial changes in functionality
+    removed public override widthTo()/heightTo() as these methods no longer exist on parent
+    made updateHitRadius public as client/child will need to call each time width/height updated
+    updated isHit/isHitPrecise() methods to work with new DynamicRectangle methods
+    isHit/isHitPrecise() methods now return a number --> distance to center of entity or -1 on miss
+    tested fully in browser
